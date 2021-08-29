@@ -122,7 +122,7 @@ const setupAnimation = () => {
 
       s.element.style.visibility = d < 0 ? 'hidden' : 'visible'
     })
-
+    controls.update()
     renderer.render(scene, camera)
     labelRenderer.render(scene, camera)
   }
